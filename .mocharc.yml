@@ -1,0 +1,6 @@
+extension:
+  - ts
+require: "ts-node/register"
+spec: src/**/*.test.ts # the positional arguments!
+watch-files:
+  - "src/**/*.ts"
