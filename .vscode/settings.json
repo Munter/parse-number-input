@@ -1,0 +1,6 @@
+{
+    //"typescript.referencesCodeLens.enabled": true,
+    // "files.exclude": {
+    //     "**/*.js": { "when": "$(basename).ts" }
+    // }
+}

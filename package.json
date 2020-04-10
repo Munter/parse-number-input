@@ -1,0 +1,39 @@
+{
+  "name": "starter-ts",
+  "version": "1.0.0",
+  "description": "TypeScript starter project with Mocha tests and support debugging via VS Code.",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/chai": "^4.1.7",
+    "@types/mocha": "^5.2.5",
+    "chai": "^4.2.0",
+    "jsdom": "^13.0.0",
+    "jsdom-global": "^3.0.2",
+    "mocha": "^5.2.0",
+    "ts-node": "^7.0.1",
+    "typescript": "^3.1.6"
+  },
+  "scripts": {
+    "test": "mocha -r ts-node/register -r jsdom-global/register src/**/*.spec.ts"
+  },
+  "author": "Yauheni Pakala",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wcoder/starter-ts.git"
+  },
+  "keywords": [
+    "typescript",
+    "unit",
+    "tests",
+    "mocha",
+    "node",
+    "debug",
+    "vscode"
+  ],
+  "bugs": {
+    "url": "https://github.com/wcoder/starter-ts/issues"
+  },
+  "homepage": "https://github.com/wcoder/starter-ts#readme"
+}
